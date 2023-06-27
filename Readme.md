@@ -4,10 +4,10 @@ A site for Space
 
 ## ⚙️TECH
 
-    <ul>
+<ul>
 
-    <li>Css</li>
-    <li>JavaScript</li>
-    <li>PHP  v7^</li>
+<li>Css</li>
+<li>JavaScript</li>
+<li>PHP  v7^</li>
 
-    </ul>
+</ul>
