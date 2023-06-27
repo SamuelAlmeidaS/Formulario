@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.screenLogin {
+    display: flex;
+    height: 100vh;
+}
+
+.img {
+    flex: 1;
+    background-image: url(../assets/img/page_login.jpg);
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form {
+    flex: 1;
+}
+
+form  {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    border: 1px solid black;
+    padding: 20px 80px;
+}
+
+form label, form label input {
+    width: 100%;
+}
