@@ -17,16 +17,17 @@
         <?php
         require('php/header.php')
         ?>
-            <form action="./php/main.php" method="post">
+            <form action="./php/loginAction.php" method="post">
                 <label>
                     E-mail:
                     <input type="email" name="email">
                 </label>
                 <label>
                     Password:
-                    <input type="password" name="" id="">
+                    <input type="password" name="password">
                 </label>
                 <button>Submit</button>
+                <span>Esqueceu a senha? <a href="./php/cadastro.php">Cadastre-se aqui</a></span>
             </form>
         </div>
     </div>
